@@ -15,7 +15,6 @@ public class Main {
         total = a + b + c;
         return total;
     }
-
 }
 class Coche{
     public int puertas = 0;
@@ -23,5 +22,4 @@ class Coche{
     public void agregarPuertas(){
         this.puertas++;
     }
-
 }
