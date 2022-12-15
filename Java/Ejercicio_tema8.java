@@ -11,27 +11,27 @@ public class Main {
     }
     //En la version de Java que estoy usando (19), se requiere a la clase Persona ser estatica,
     // otra alternativa es eliminar la forma estatica al metodo main.
-    static class Persona {
-        private int edad, telefono;
-        private String nombre;
+}
+class Persona {
+    private int edad, telefono;
+    private String nombre;
 
-        public void setEdad(int edad) {
-            this.edad=edad;
-        }
-        public int getEdad(){
-            return this.edad;
-        }
-        public void setnombre(String nombre) {
-            this.nombre=nombre;
-        }
-        public String getNombre() {
-            return this.nombre;
-        }
-        public void setTelefono(int telefono) {
-            this.telefono=telefono;
-        }
-        public int getTelefono() {
-            return this.telefono;
-        }
+    public void setEdad(int edad) {
+        this.edad=edad;
+    }
+    public int getEdad(){
+        return this.edad;
+    }
+    public void setnombre(String nombre) {
+        this.nombre=nombre;
+    }
+    public String getNombre() {
+        return this.nombre;
+    }
+    public void setTelefono(int telefono) {
+        this.telefono=telefono;
+    }
+    public int getTelefono() {
+        return this.telefono;
     }
 }
