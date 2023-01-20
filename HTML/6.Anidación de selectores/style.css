@@ -1,8 +1,12 @@
-button :hover{
+.boton :hover{
     color: white;
     background-color: green;
 }
 
-button ::slotted {
+.boton ::before {
+    content: "Pasar por encima!"; /*no se*/
+}
+
+.boton ::after {
     content: "Hecho!"; /*no se*/
 }
