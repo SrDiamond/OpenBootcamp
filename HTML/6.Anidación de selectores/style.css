@@ -1,0 +1,8 @@
+button :hover{
+    color: white;
+    background-color: green;
+}
+
+button ::slotted {
+    content: "Hecho!"; /*no se*/
+}
