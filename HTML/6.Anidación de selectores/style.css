@@ -1,11 +1,11 @@
-.btn:hover {
+.boton:hover {
     color: white;
     background-color: green;
 }
 /*Correcion*/
-.btn::before {
+.boton::before {
     content: "Pasa por encima"
 }
-.btn:hover::before {
+.boton:hover::before {
     content: "¡Hecho!"
 }
