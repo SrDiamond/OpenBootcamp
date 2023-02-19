@@ -23,12 +23,9 @@ body{
 }
 
 .elementos {
-    display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    padding: 4px;
-    height: 5vh;
+    padding: 10px;
 }
 
 @media (max-width: 640px){
