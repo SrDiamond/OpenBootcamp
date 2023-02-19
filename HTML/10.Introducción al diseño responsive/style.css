@@ -1,23 +1,22 @@
 * {
-    box-sizing: border-box;
-    height: 100%;
     padding: 0;
     margin: 0;
 }
-.contenido{
+
+body{
     display: flex;
-    gap: 10px;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .seccion{
     font-size: 3rem;
+    flex-grow: 1;
 }
 
 .barra-lateral{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 10vh;
     padding: 4px;
     gap: 4px;
     background-color: cadetblue;
@@ -33,6 +32,9 @@
 }
 
 @media (max-width: 640px){
+    body{
+        flex-direction: column-reverse;
+    }
     .barra-lateral{
         flex-direction: row;
         align-items: flex-end;
