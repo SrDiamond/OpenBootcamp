@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.barra-lateral{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 10vh;
+    padding: 4px;
+    gap: 4px;
+}
+
+.elementos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+    height: 5vh;
+}
+
+@media (max-width: 640px){
+    .barra-lateral{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+}
