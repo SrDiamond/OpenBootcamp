@@ -7,4 +7,4 @@ let contador = estudiante.length;
 let primeraLetra = estudiante.charAt();
 let ultimaLetra = estudiante.charAt(estudiante.length - 1);
 let sinEspacio = estudiante.replace(" ", "");
-console.log(estudiante.includes(nombre));
+let incluye = estudiante.includes(nombre);
